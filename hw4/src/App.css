@@ -1,0 +1,160 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+.sidebar {
+  width: 20%;
+  overflow-y: auto;
+  height: 100%;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.cat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.shuffle-button {
+  margin-top: 20px;
+}
+.history-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+/* App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: black;
+  background-image: url('/images/pink_back.png'); /* Use image from public folder */
+
+}
+
+.cat-history-container, .bans-container, .cat-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #ccc;
+  overflow-y: auto; /* Add vertical scrollbar */
+  width: 900px; /* Set a fixed width */
+  border: 6px solid lightpink; /* Change border color to light pink */
+  box-shadow: 0 0 0 4px rgb(235, 193, 217); /* Add black border around the pink one */
+  background-color: white; /* Fill the boxes with white */
+ 
+}
+
+.cat-history-container {
+  grid-column: 1; /* Align to the first column */
+  height: 60%; /* Ensure container takes full height of the grid cell */
+ /* width: 500% !important;*/
+}
+
+.cat-card-container {
+  grid-column: 2; /* Align to the second column */
+  width: 2100px !important;
+}
+
+.bans-container {
+  grid-column: 3; /* Align to the third column */
+  height: 60%; /* Ensure container takes full height of the grid cell */
+}
+/* App.css */
+button {
+  background-color: lightpink !important;
+  margin: 0 50px !important;
+  color: black;
+  border: 1px solid black !important;
+}
+button:hover {
+  background-color: rgb(242, 202, 233) !important;
+}
+
+
+body {
+  font-family: 'Press Start 2P', cursive;
+}
+.cat-discovery {
+  font-family: 'Indie Flower', cursive;
+}
+
+.cat-discovery-header {
+  font-size: 39px;
+  font-family: 'Press Start 2P', cursive;
+}
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px lightpink, 0 0 10px lightpink, 0 0 15px lightpink, 0 0 20px lightpink;
+  }
+  50% {
+    box-shadow: 0 0 10px lightpink, 0 0 20px lightpink, 0 0 30px lightpink, 0 0 40px lightpink;
+  }
+  100% {
+    box-shadow: 0 0 5px lightpink, 0 0 10px lightpink, 0 0 15px lightpink, 0 0 20px lightpink;
+  }
+}
+
+.App {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 2rem;
+  grid-gap: 4rem;
+  height: 1000px;
+  background-image: url('/images/pink_dots.png'); /* Use image from public folder */
+  animation: glow 2s infinite;
+  height: 1000px;
+  background-image: url('/images/pink_dots.png'); /* Use image from public folder */
+  
+}
+
+
+
