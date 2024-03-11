@@ -23,9 +23,6 @@ The following **optional** features are implemented:
 - [x] Multiple types of attributes can be added to the ban list
 - [x] Users can see a stored history of their previously viewed items from their session
 
-The following **additional** features are implemented:
-
-* [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
