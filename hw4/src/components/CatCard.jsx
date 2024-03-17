@@ -24,7 +24,7 @@ function CatCard({ onBan, onShuffle, onFavorite }) {
     }, []);
 
     const handleBan = (value, type) => {
-        // Implement your ban logic here
+
         onBan({ type, value });
     };
 
